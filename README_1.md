@@ -4,14 +4,7 @@ Lab material for **CSC 223-L Computer Architecture Lab** (BS Computer Science, F
 
 Students learn the instruction set architecture (ISA) of a **CISC** processor (Intel x86) and a **RISC** processor (MIPS) by writing assembly programs. They also simulate **cache memory** and **virtual memory address translation**.
 
-| | |
-|---|---|
-| **Instructor** | Faiza Ali, Junior Lecturer |
-| **Email** | faiza.ali@iqraisb.edu.pk |
-| **Office** | A8 |
-| **Credit hours** | 2+1 (one 3-hour lab per week) |
-| **Prerequisite** | CSC 222 |
-| **Software** | emu8086 (Labs 1–8), [QtSPIM](https://spimsimulator.sourceforge.net/) (Labs 9–13) |
+
 
 ---
 
@@ -20,9 +13,8 @@ Students learn the instruction set architecture (ISA) of a **CISC** processor (I
 ```
 CA-Lab-CSC223L/
 ├── README.md
-├── docs/
-│   ├── Course_Card_CSC223L_Computer_Architecture_Lab.pdf
-│   └── CA_Lab_Manual_CSC223L.pdf
+├── Course_Card_CSC223L_Computer_Architecture_Lab.pdf
+└── CA_Lab_Manual_CSC223L.pdf
 ├── x86/          # Part I  – emu8086 programs (Labs 1–8)
 │   ├── p1_1.asm
 │   └── ...
@@ -143,25 +135,8 @@ Hits = 4 out of 10
 
 ---
 
-## Course Learning Outcomes
 
-| CLO | Statement | BT Level | GA | Weight |
-|:---:|---|:---:|:---:|:---:|
-| CLO1 | **Apply** concepts of instruction set architecture and assembly language programming to develop solutions for x86 and MIPS systems. | P3 | GA2 | 65% |
-| CLO2 | **Analyze** and implement system-level operations, such as procedures, macros, and memory management, using assembly language and simulators. | A3 | GA6 | 35% |
 
-## Assessment
-
-| Component | Weight |
-|---|:---:|
-| Lab Manual (lab tasks, graded on rubrics R1–R5) | 20% |
-| Midterm Exam | 25% |
-| Open-Ended Lab / Project | 15% |
-| Final Exam | 40% |
-
-**Open-Ended Lab:** *CISC vs RISC Comparative Mini-Project.* Groups of 2–3 students build the same Student Result Processing module in x86 (emu8086) and in MIPS (QtSPIM). They then compare code size, instruction counts and memory accesses, and analyse the sorting routine with the Lab 12 cache simulator.
-
----
 
 ## For students
 
